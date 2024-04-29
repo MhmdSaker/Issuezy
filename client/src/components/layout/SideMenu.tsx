@@ -39,8 +39,8 @@ export default function SideMenu({ className }: SideMenuProps) {
     <div className={cn("pb-12", className)}>
       <div className="space-y-4 py-4">
         <div className="px-3 py-2">
-          <img src={logoLight} className="mb-5 h-24 w-24 dark:hidden" />
-          <img src={logoDark} className="mb-5 hidden h-24 w-24 dark:block" />
+          <img src={logoLight} className="mb-5 h-30 dark:hidden" />
+          <img src={logoDark} className="mb-5 hidden h-30 dark:block" />
           <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
             Hi, {currentUser.firstname}
           </h2>
@@ -56,7 +56,7 @@ export default function SideMenu({ className }: SideMenuProps) {
                 </Button>
               )}
             </NavLink>
-            <NavLink to="/tasks" className="flex items-center">
+            {/*<NavLink to="/tasks" className="flex items-center">
               {({ isActive }) => (
                 <Button
                   variant={isActive ? "secondary" : "ghost"}
@@ -66,7 +66,7 @@ export default function SideMenu({ className }: SideMenuProps) {
                   <span>My tasks</span>
                 </Button>
               )}
-            </NavLink>
+            </NavLink>*/}
             <NavLink to="/settings" className="flex items-center">
               {({ isActive }) => (
                 <Button
