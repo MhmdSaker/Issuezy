@@ -18,8 +18,7 @@ export const columns: ColumnDef<Issue>[] = [
       return (
         <Link
           to={`/projects/${row.original.projectId}/issues/${row.original.id}`}
-          className="font-bold hover:text-violet-500"
-        >
+          className="font-bold hover:text-primary transition">
           {title}
         </Link>
       );

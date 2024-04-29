@@ -19,7 +19,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     (issue) => issue.isDeleted !== true,
   );
   return (
-    <Card className="border-transparent hover:border-solid hover:border-violet-600 dark:bg-gray-900 lg:flex lg:h-full lg:flex-col">
+    <Card className="border-transparent hover:border-solid hover:border-primary transition dark:bg-gray-900 lg:flex lg:h-full lg:flex-col">
       <CardHeader className="flex flex-row items-center justify-between">
         <span>
           <Badge className={project.isPublic ? "" : "bg-pink-500"}>

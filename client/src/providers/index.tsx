@@ -11,7 +11,7 @@ export default function AppProviders() {
       <QueryClientProvider client={queryClient}>
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
           <RouterProvider router={router} />
-          <ReactQueryDevtools initialIsOpen={false} />
+          
         </ThemeProvider>
       </QueryClientProvider>
     </>

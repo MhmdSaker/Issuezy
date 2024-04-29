@@ -29,9 +29,9 @@ export function AllProjectsPage() {
       <div className="h-full flex-1 flex-col space-y-8 p-8 md:flex">
         <div className="items-end justify-between space-y-2 lg:flex">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight">Projects</h2>
-            <p className="mt-2 text-muted-foreground">
-              Here is s a list of your projects!
+            <h2 className="text-4xl font-bold tracking-tight mt-5 mb-5">Projects</h2>
+            <p className="ml-1 mt-2 text-muted-foreground">
+              List of your last made projects.
             </p>
           </div>
           <div className="pt-5">

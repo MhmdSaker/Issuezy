@@ -71,7 +71,7 @@ export function LoginCard() {
         </div>
         <img src={logoLight} className="mx-auto h-36 w-36 dark:hidden" />
         <img src={logoDark} className="mx-auto hidden h-36 w-36 dark:block " />
-        <CardTitle className="text-center text-2xl">Welcome back</CardTitle>
+        <CardTitle className="text-center text-lg "></CardTitle>
       </CardHeader>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)}>
